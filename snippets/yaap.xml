@@ -11,10 +11,14 @@
            fetch="https://github.com/yaap"
            revision="refs/heads/fifteen" />
 
+  <remote  name="yaapex"
+           fetch="https://github.com/yaap-extended"
+           revision="refs/heads/fifteen" />
+
   <!-- General -->
   <project path="art" name="art" remote="yaap" />
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="yaap" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="yaap" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="yaapex" />
   <project path="bionic" name="bionic" remote="yaap" />
   <project path="manifest" name="yaap/manifest" remote="github" revision="fifteen" />
 
@@ -73,7 +77,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="yaap" />
-  <project path="frameworks/base" name="frameworks_base" remote="yaap" />
+  <project path="frameworks/base" name="frameworks_base" remote="yaapex" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="yaap" />
   <project path="frameworks/minikin" name="frameworks_minikin" remote="yaap" />
   <project path="frameworks/native" name="frameworks_native" remote="yaap" />
@@ -150,20 +154,19 @@
   <project path="packages/apps/Etar" name="packages_apps_Etar" remote="yaap" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="yaap" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="yaap" />
-  <project path="packages/apps/KProfiles" name="packages_apps_KProfiles" remote="yaap" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
   <project path="packages/apps/LMOFreeform" name="packages_apps_LMOFreeform" remote="yaap" />
   <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="yaap" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="yaap" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="yaap" />
-  <project path="packages/apps/OpenDelta" name="packages_apps_OpenDelta" remote="yaap" />
+  <project path="packages/apps/OpenDelta" name="packages_apps_OpenDelta" remote="yaapex" />
   <project sync-s="true" path="packages/apps/OpenEUICC" name="packages_apps_OpenEUICC" remote="yaap" />
   <project path="packages/apps/Panic" name="CalyxOS/platform_packages_apps_Panic" remote="github" revision="android14" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="yaap" />
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/apps/Ripple" name="CalyxOS/platform_packages_apps_Ripple" remote="github" revision="android15-qpr2" />
   <project path="packages/apps/Seedvault" name="packages_apps_Seedvault" remote="yaap" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaapex" />
   <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="yaap" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="yaap" />
@@ -224,7 +227,7 @@
   <project path="vendor/qcom/common" name="yaosp/vendor_qcom_common" remote="gitlab" revision="fifteen" />
   <project path="vendor/microg" name="vendor_microg" remote="yaap" />
   <project path="vendor/themes" name="vendor_themes" remote="yaap" />
-  <project path="vendor/yaap" name="vendor_yaap" remote="yaap" />
+  <project path="vendor/yaap" name="vendor_yaap" remote="yaapex" />
   <project path="vendor/yaap/apps" name="vendor_yaap_apps" remote="yaap" clone-depth="1" />
 
 </manifest>
