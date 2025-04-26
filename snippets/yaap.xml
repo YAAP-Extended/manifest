@@ -49,30 +49,36 @@
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="yaap" />
-  <project path="external/calyx/chromium" name="CalyxOS/platform_external_calyx_chromium" remote="gitlab" revision="android15-qpr2" clone-depth="1" />
+  <project path="external/calyx/chromium" name="CalyxOS/platform_external_calyx_chromium" remote="gitlab" revision="android15-qpr2" clone-depth="1" >
+    <linkfile src="os_pickup.bp" dest="prebuilts/calyx/chromium/Android.bp" />
+  </project>
+  <project path="external/avb" name="external_avb" remote="yaap" />
   <project path="external/dtc" name="external_dtc" remote="yaap" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="yaap" />
   <project path="external/erofs-utils" name="external_erofs-utils" remote="yaap" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="yaap" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="yaap" />
   <project path="external/freetype" name="external_freetype" remote="yaap" />
+  <project path="external/htop" name="external_htop" remote="yaap" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="yaap" />
   <project path="external/libcxx" name="external_libcxx" remote="yaap" />
   <project path="external/libdav1d" name="external_libdav1d" remote="yaap" />
   <project path="external/libfuse" name="external_libfuse" remote="yaap" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="yaap" />
+  <project path="external/libncurses" name="external_libncurses" remote="yaap" />
   <project path="external/libpng" name="external_libpng" remote="yaap" />
+  <project path="external/libyuv" name="platform/external/libyuv" remote="aosp" revision="969ed2ab0a254660ce8dd3619200ec37c1f63161" />
   <project path="external/libxml2" name="external_libxml2" remote="yaap" />
+  <project path="external/llvm" name="platform/external/llvm" remote="aosp" revision="8ff63a678516e5e6bae1a1320f245d01e3be943e" />
   <project path="external/lz4" name="external_lz4" remote="yaap" />
+  <project path="external/minijail" name="platform/external/minijail" remote="aosp" revision="113ad64853a65480c38141e2374a1c65e8a535de" />
   <project path="external/mksh" name="external_mksh" remote="yaap" />
   <project path="external/setupcompat" name="external_setupcompat" remote="yaap" />
   <project path="external/skia" name="external_skia" remote="yaap" />
   <project path="external/sqlite" name="external_sqlite" remote="yaap" />
-  <project path="external/svox" name="external_svox" remote="yaap" />
   <project path="external/tensorflow" name="external_tensorflow" remote="yaap" />
   <project path="external/tinycompress" name="external_tinycompress" remote="yaap" />
   <project path="external/vixl" name="external_vixl" remote="yaap" />
-  <project path="external/zlib" name="external_zlib-ng" remote="yaap" />
   <project path="external/zstd" name="external_zstd" remote="yaap" />
 
   <!-- Frameworks -->
@@ -187,6 +193,7 @@
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="yaap" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="yaap" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="yaap" />
+  <project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" remote="aosp" revision="2e5d93c6d5a2598dec86e7b66b52c3975e4899b5" />
   <project path="packages/services/DeviceAsWebcam" name="packages_services_DeviceAsWebcam" remote="yaap" />
   <project path="packages/services/Iwlan" name="packages_services_Iwlan" remote="yaap" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="yaap" />
@@ -195,6 +202,8 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/calyx/chromium/arm64" name="CalyxOS/lfs_prebuilts_calyx_chromium_arm64" remote="gitlab" revision="android15-qpr2" clone-depth="1" />
+  <project path="prebuilts/calyx/chromium/x64" name="CalyxOS/lfs_prebuilts_calyx_chromium_x64" remote="gitlab" revision="android15-qpr2" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" remote="aosp" revision="62cdcefa89e31af2d72c366e8b5ef8db84caea62" />
   <project path="prebuilts/openeuicc-deps" name="prebuilts_openeuicc-deps" remote="yaap" />
   <project path="toolchain/pgo-profiles" name="toolchain_pgo-profiles" remote="yaap" />
 

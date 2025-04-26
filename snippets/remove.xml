@@ -59,6 +59,7 @@
   <remove-project name="platform/build/bazel" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/avb" />
   <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/erofs-utils" />
@@ -66,6 +67,7 @@
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/minijail" />
   <remove-project name="platform/external/kotlinc" />
   <remove-project name="platform/external/kotlinx.coroutines" />
   <remove-project name="platform/external/kotlinx.serialization" />
@@ -74,7 +76,9 @@
   <remove-project name="platform/external/libfuse" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libpng" />
+  <remove-project name="platform/external/libyuv" />
   <remove-project name="platform/external/libxml2" />
+  <remove-project name="platform/external/llvm" />
   <remove-project name="platform/external/lz4" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/skia" />
@@ -83,7 +87,6 @@
   <remove-project name="platform/external/tensorflow" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/vixl" />
-  <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/zstd" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
@@ -98,6 +101,7 @@
   <remove-project name="platform/hardware/google/pixel-sepolicy" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/samsung/nfc" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/Contacts" />
@@ -128,11 +132,13 @@
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/services/BuiltInPrintService" />
   <remove-project name="platform/packages/services/DeviceAsWebcam" />
   <remove-project name="platform/packages/services/Iwlan" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="platform/prebuilts/go/darwin-x86" />
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/core" />
