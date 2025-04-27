@@ -199,6 +199,7 @@
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="yaap" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="yaap" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="yaap" />
+  <project path="packages/overlays" name="packages_overlays_YAAEXP" remote="yaapex" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/calyx/chromium/arm64" name="CalyxOS/lfs_prebuilts_calyx_chromium_arm64" remote="gitlab" revision="android15-qpr2" clone-depth="1" />
