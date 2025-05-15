@@ -13,7 +13,7 @@
 
   <remote  name="yaapex"
            fetch="https://github.com/yaap-extended"
-           revision="refs/heads/fifteen" />
+           revision="fifteen" />
 
   <!-- General -->
   <project path="art" name="art" remote="yaap" />
@@ -186,6 +186,7 @@
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="yaap" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="yaap" />
   <project path="packages/apps/VendorSupport" name="packages_apps_VendorSupport" remote="yaapex" />
+  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="yaapex" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="yaap" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="yaap" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="yaap" />
